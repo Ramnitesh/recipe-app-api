@@ -15,8 +15,9 @@ services:
     environment:
       - DB_NAME=devdb
       - DB_USER=devuser
-      - DB_PASSWORD=changeme
-      - DB_HOST=localhost
+      - DB_PASS=changeme
+      - DB_HOST=db
+      - DB_PORT=5432
     depends_on:
       - db
 
