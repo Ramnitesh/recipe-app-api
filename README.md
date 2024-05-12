@@ -22,7 +22,7 @@
 
 `docker-compose run --rm app sh -c "python manage.py test"`
 
-### Make migration
+### Make migration when you have updated entity or added new entity
 
 `docker-compose run --rm app sh -c "python manage.py makemigrations"`
 
